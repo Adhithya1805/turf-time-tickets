@@ -82,7 +82,7 @@ export default function BrowseTurfs() {
                         <SelectValue placeholder="Select sport" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="">All Sports</SelectItem>
+                        <SelectItem value="all-sports">All Sports</SelectItem>
                         {sports.map((sport) => (
                           <SelectItem key={sport} value={sport}>
                             {sport}
@@ -141,7 +141,7 @@ export default function BrowseTurfs() {
                   <SelectValue placeholder="Select sport" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Sports</SelectItem>
+                  <SelectItem value="all-sports">All Sports</SelectItem>
                   {sports.map((sport) => (
                     <SelectItem key={sport} value={sport}>
                       {sport}
