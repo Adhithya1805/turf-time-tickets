@@ -46,16 +46,16 @@ export function Header() {
             Browse Turfs
           </Link>
           <Link
+            to="/how-it-works"
+            className="text-sm font-medium text-foreground transition-colors hover:text-primary"
+          >
+            How It Works
+          </Link>
+          <Link
             to="/bookings"
             className="text-sm font-medium text-foreground transition-colors hover:text-primary"
           >
             My Bookings
-          </Link>
-          <Link
-            to="/about"
-            className="text-sm font-medium text-foreground transition-colors hover:text-primary"
-          >
-            About
           </Link>
         </nav>
 
@@ -97,18 +97,18 @@ export function Header() {
                   Browse Turfs
                 </Link>
                 <Link 
+                  to="/how-it-works" 
+                  className="text-lg font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  How It Works
+                </Link>
+                <Link 
                   to="/bookings" 
                   className="text-lg font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   My Bookings
-                </Link>
-                <Link 
-                  to="/about" 
-                  className="text-lg font-medium"
-                  onClick={() => setIsOpen(false)}
-                >
-                  About
                 </Link>
                 <div className="flex flex-col gap-2 mt-4">
                   <Link to="/login" onClick={() => setIsOpen(false)}>
