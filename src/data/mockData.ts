@@ -16,7 +16,7 @@ export const turfs: Turf[] = [
     id: "1",
     name: "Green Valley Football Turf",
     location: "Downtown Sports Complex, Central City",
-    image: "https://images.unsplash.com/photo-1487466365202-1afdb86c764e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
+    image: "/icons/test image1.png",
     price: 80,
     rating: 4.5,
     sport: "Football",
