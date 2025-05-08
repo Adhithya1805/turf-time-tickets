@@ -10,7 +10,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-        "src": "https://commons.wikimedia.org/wiki/File:Google_%22G%22_logo.svg",
+        "src": "/icons/test image1.png",
         "sizes": "72x72",
         "type": "image/png"
       },
